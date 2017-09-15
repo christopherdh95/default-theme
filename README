@@ -1,0 +1,14 @@
+<?php
+2	
+3	namespace Concise\Console\Theme;
+4	
+5	class DefaultThemeTest extends ThemeTestCase
+6	{
+7	    protected $theme;
+8	
+9	    public function setUp()
+10	    {
+11	        parent::setUp();
+12	        $this->theme = new DefaultTheme();
+13	    }
+14	}
